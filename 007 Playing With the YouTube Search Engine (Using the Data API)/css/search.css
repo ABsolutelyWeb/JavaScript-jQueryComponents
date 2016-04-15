@@ -1,0 +1,142 @@
+/*Reset default styling*/
+* {
+	padding: 0;
+	margin: 0;
+}
+
+/*Google font Raleway imported*/
+body {
+	font-family: "Raleway";
+	line-height: 1.5em;
+	color: #999999;
+
+	background: #232526; /* fallback for old browsers */
+	background: -webkit-linear-gradient(to left, #232526 , #414345); /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to left, #232526 , #414345); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+	font-size: 16px;
+        
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+#container {
+	width: 740px;
+	background: white;
+	margin: auto;
+}
+
+.clearfix {
+	clear:both;
+}
+
+header {
+	padding: 30px 20px;
+	background: #777777;
+}
+
+header img {
+	margin-bottom: 5px;
+}
+
+section {
+	padding: 30px 20px 20px 20px;
+}
+
+footer {
+	padding: 20px;
+	background: #777777;
+	text-align: center;
+}
+
+#search-form {
+	display: block;
+	margin-bottom: 20px;
+}
+
+.fieldcontainer {
+	display: block;
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+
+.search-field {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	display: block;
+	width: 45%;
+	padding: 13px 8px;
+	padding-right: 45px;
+	background: white;
+	color: #ccc;
+	border: 1px solid #c8c8c8;
+	font-size: 1.7em;
+	border-bottom-color: #d2e2e7;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	-moz-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 6px #f0f0f0;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 6px #f0f0f0;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,0.1), 0 0 0 6px #f0f0f0;
+}
+
+#search-btn:hover {
+	filter: alpha(opacity=90); /* For older browsers */
+	opacity: 0.9;
+}
+
+#search-btn {
+	position: absolute;
+	width: 45%;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	cursor: pointer;
+	zoom: 1;
+	background: transparent top left no-repeat;
+}
+
+#results {
+	padding: 10px 0;
+	border-bottom: 1px #ccc dotted;
+	list-style: none;
+	overflow: auto;
+}
+
+.list-left {
+	float: left;
+	width: 20%;
+}
+
+.list-left img{
+	width: 100%;
+	padding: 3px;
+	border: solid #ccc 1px;
+}
+
+.list-right {
+	float: right;
+	width: 78%;
+}
+
+.cTitle {
+	color: #dd2826;
+}
+
+.button-container {
+	margin-top: 25px;
+}
+
+.paging-button {
+	color: #334;
+	margin: 11px;
+	border: #ccc 2px solid;
+	border-radius: 6px;
+	cursor: pointer;
+	background: #f4f4f4;
+	padding: 9px 14px;
+}
